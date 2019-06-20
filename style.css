@@ -1,0 +1,68 @@
+.h1 {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+
+}
+
+.h2 {
+    text-align: center;
+    display: flex;
+    width: 30vw;
+    padding: 4rem;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.aside {
+    width: 35vw;
+    justify-content: left;
+}
+
+body {
+    background-color: #494949;
+    color: #f4c20c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    text-align: center;
+}
+
+.flex-container {
+    display: flexbox;
+    width: 30vw;
+    padding: 4rem;
+    text-align: center;
+}
+
+.tech-stack {
+    display: flexbox;
+    justify-content: right;
+}
+
+.header {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* In your HTML, add a new div around your name and job title. This new div should be 30vw wide with 4rem of padding and should be centered both vertically and horizontally inside the header element. (Hint: flexbox is great for centering!)
+Use flexbox to create a two-column layout for the page content:
+The left-hand column should be your bio aside element.
+The right-hand column should contain your tech stack section and your work experience section. These sections should be stacked on top of each other.
+Each column should have a padding of 1rem.
+You will need to add new elements to your HTML to make flexbox work correctly.
+Each article element in your work experience section should have a top margin of 2em.
+Your footer element should have a top padding of 15vh and a height of 20vh. */
